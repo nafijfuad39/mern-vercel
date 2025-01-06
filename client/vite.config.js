@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api/':{
-        target:"https://mern-vercel-ashy.vercel.app"
+        target:"http://localhost:7000"
       }
     }
   }
